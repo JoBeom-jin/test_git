@@ -31,20 +31,25 @@ router.get('/jo_utilities2', function (req, res) {
     //__dirname : It will resolve to your project folder.
     });
 
-    router.get('/sungho', function (req, res) {
-        res.sendFile(path.join(__dirname + '/sungho.html'));
-        //__dirname : It will resolve to your project folder.
-        });
+router.get('/jo_2', function (req, res) {
+    res.sendFile(path.join(__dirname + '/beomjin/jo_try_utilities.html'));
+    //__dirname : It will resolve to your project folder.
+    });
 
-        router.get('/boot2', function (req, res) {
-            res.sendFile(path.join(__dirname + '/boot2.html'));
-            //__dirname : It will resolve to your project folder.
-            });
+router.get('/sungho', function (req, res) {
+    res.sendFile(path.join(__dirname + '/sungho.html'));
+    //__dirname : It will resolve to your project folder.
+    });
 
-            router.get('/boot3', function (req, res) {
-                res.sendFile(path.join(__dirname + '/boot3.html'));
-                //__dirname : It will resolve to your project folder.
-                });
+router.get('/boot2', function (req, res) {
+    res.sendFile(path.join(__dirname + '/boot2.html'));
+    //__dirname : It will resolve to your project folder.
+    });
+
+router.get('/boot3', function (req, res) {
+    res.sendFile(path.join(__dirname + '/boot3.html'));
+    //__dirname : It will resolve to your project folder.
+    });
     
 
 app.use('/', router);
