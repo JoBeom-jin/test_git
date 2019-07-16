@@ -7,7 +7,7 @@ const port = 3000
 
 
 app.use(express.static('public'))
-
+app.use(express.static('sunghoimg'))
 const path = require('path');
 const router = express.Router();
 router.get('/', function (req, res) {
@@ -29,6 +29,11 @@ router.get('/beomjin', function (req, res) {
         res.sendFile(path.join(__dirname + '/sungho.html'));
         //__dirname : It will resolve to your project folder.
         });
+
+        router.get('/boot2', function (req, res) {
+            res.sendFile(path.join(__dirname + '/boot2.html'));
+            //__dirname : It will resolve to your project folder.
+            });
     
 
 app.use('/', router);
