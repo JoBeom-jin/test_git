@@ -8,6 +8,7 @@ const port = 3000
 
 app.use(express.static('public'))
 
+
 const path = require('path');
 const router = express.Router();
 router.get('/', function (req, res) {
@@ -22,6 +23,11 @@ router.get('/external', function (req, res) {
 
 router.get('/beomjin', function (req, res) {
     res.sendFile(path.join(__dirname + '/beomjin.html'));
+    //__dirname : It will resolve to your project folder.
+    });
+
+router.get('/jo_utilities2', function (req, res) {
+    res.sendFile(path.join(__dirname + '/beomjin/jo_utilities2.html'));
     //__dirname : It will resolve to your project folder.
     });
 
