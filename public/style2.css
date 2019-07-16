@@ -1,0 +1,109 @@
+/* stylesheet02.html CSS */
+
+.table_name {
+    font-family: verdana;
+    color:red;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+    vertical-align: middle;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr {
+    background-color: white;
+}
+
+th {
+    background-color: #4caf50;
+    color: white;
+}
+
+tr:hover {
+    background-color: yellow;
+}
+
+.sub2_body {
+    background-color: red;
+}
+
+
+.sub2_title, .sub2_title2 {
+    color: white;
+}
+
+.sub2_title {
+    font-size: 60px;
+}
+
+.sub2_title2 {
+    font-size: 30px;
+}
+
+.sub2_side1 {
+    color: red;
+    background-color: lightgray;
+    padding: 10px;
+    margin:0;
+}
+
+.sub2_side2 {
+    width: 100%;
+    text-align: center;
+    color: white;
+    
+}
+
+.sub2_main {
+    background-color: white;
+    padding: 10px;
+}
+
+.sub2_menu {
+    float:right;
+}
+
+.sub2_menu li {
+    list-style-type: none;
+    background-color: red;
+    border-radius: 15px;
+    padding: 5px;
+    text-align: center;
+    margin: 10px;
+    width: 150px;
+    font-family: verdana;
+    border: 1px solid red;
+    
+}
+
+.sub2_menu li a {
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+}
+
+.sub2_menu li a:hover {
+    color: white;
+}
+
+.main_title {
+    font-family: verdana;
+    color:red;
+
+}
+
+.main-click a {
+    text-decoration: none;
+    color: red;
+    font-family: verdana;
+}

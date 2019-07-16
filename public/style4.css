@@ -1,0 +1,106 @@
+/* stylesheet4.html CSS */
+
+* {font-family: 'Courier New', Courier, monospace;}
+
+body {
+    background-color: black;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+    vertical-align: middle;
+}
+
+tr {
+    color: #4caf50;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+
+
+th {
+    background-color: #4caf50;
+    color: white;
+}
+
+tr:hover {
+    background-color: yellow;
+}
+
+.sub4_title, .sub4_title2 {
+    color: #4caf50;
+}
+
+.sub4_title a {
+    color: white;
+}
+
+.sub4_title2 {
+    margin: 0;
+}
+
+.middle {
+    vertical-align: middle;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.sub4_side1 {
+    padding: 10px;
+    margin:0;
+    color: white;
+    border: 1px solid white;
+    width: 300px;
+    float: right;
+}
+
+.side_title {
+    font-size: 20px;
+}
+
+.sub4_side2 {
+    width: 100%;
+    text-align: center;
+    color : white;
+    margin: 0;
+    padding: 10px;
+    
+}
+
+
+
+.sub4_menu {
+    color: white;
+    height: 0;
+    margin: 0;
+}
+
+.sub4_menu li {
+    margin-bottom: 10px;
+}
+
+.sub4_menu li a {
+    text-decoration: none;
+    color: white;
+}
+
+.middle, .sub4_main4, .sub4_side2 {
+    display: inline-block;
+}
+
+.main-click, .main-click a {
+    color: white;
+}
+
+.sub4_title3, .sub4_content3 {
+    color: #4caf50;
+}
