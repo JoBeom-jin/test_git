@@ -25,6 +25,12 @@ router.get('/beomjin', function (req, res) {
     //__dirname : It will resolve to your project folder.
     });
 
+    router.get('/sungho', function (req, res) {
+        res.sendFile(path.join(__dirname + '/sungho.html'));
+        //__dirname : It will resolve to your project folder.
+        });
+    
+
 app.use('/', router);
 
 app.listen(port, () => console.log(`Example app listening on port ${port}!`))
