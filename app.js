@@ -40,6 +40,11 @@ router.get('/jo_utilities2', function (req, res) {
             res.sendFile(path.join(__dirname + '/boot2.html'));
             //__dirname : It will resolve to your project folder.
             });
+
+            router.get('/boot3', function (req, res) {
+                res.sendFile(path.join(__dirname + '/boot3.html'));
+                //__dirname : It will resolve to your project folder.
+                });
     
 
 app.use('/', router);
