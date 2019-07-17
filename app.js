@@ -47,17 +47,17 @@ router.get('/sungho', function (req, res) {
     });
 
 router.get('/boot2', function (req, res) {
-    res.sendFile(path.join(__dirname + '/boot2.html'));
+    res.sendFile(path.join(__dirname + '/sungho/boot2.html'));
     //__dirname : It will resolve to your project folder.
     });
 
 router.get('/boot3', function (req, res) {
-    res.sendFile(path.join(__dirname + '/boot3.html'));
+    res.sendFile(path.join(__dirname + '/sungho/boot3.html'));
     //__dirname : It will resolve to your project folder.
     });
 
 router.get('/boot4', function (req, res) {
-    res.sendFile(path.join(__dirname + '/boot4.html'));
+    res.sendFile(path.join(__dirname + '/sungho/boot4.html'));
     //__dirname : It will resolve to your project folder.
     });    
 
